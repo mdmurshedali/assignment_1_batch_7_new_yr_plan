@@ -145,10 +145,10 @@ footer{
     color: white;
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width: 55%;
 }
 .margin_bottom{
-    margin-bottom: 5%;
+    margin-bottom: 3%;
 }
 .subscribe{
     color: white;
@@ -156,12 +156,14 @@ footer{
     flex-direction: column;
     gap:10%;
     margin-left: 5%;
+    width: 40%;
 }
 .icon{
     display: flex;
     gap: 2.5%;
 }
 input{
+    width: 90%;
     padding: 5%;
     border: 1px solid white;
     border-radius: 5px;
