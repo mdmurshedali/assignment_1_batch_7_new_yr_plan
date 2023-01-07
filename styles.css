@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+/*------------Banner_Part_Start-----------------*/
+.banner_top{
+    text-align: right;
+    color: white;
+    background: url(./images/banner3.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    margin-bottom: 5%;
+}
+
+.banner_text{
+    padding: 20% 5%;
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+}
+p li{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 5%;
+}
+#b{
+    width: 40%;
+}
+.anchor-button{
+    text-decoration: none;
+    background: linear-gradient(45deg, white, whitesmoke);
+    padding: 2% 2.5%;
+    border-radius: 5px;
+    color: #005FAC;
+    font-weight: 600;
+}
+/*------------Banner_Part_End-----------------*/
+/*------------Failures_Part_start-----------------*/
+.failures{
+    margin: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.failurues_text{
+    margin-left: 10%;
+}
+h2{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+}
+ul{
+    margin-left: 5%;
+}
+/*------------Failures_Part_start-----------------*/
+/*------------my_plan_Part_start-----------------*/
+.my_plan{
+    text-align: center;
+    margin: 10%;
+    
+}
+.plans{
+    padding-top: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.plan{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #151414;
+
+}
+h4{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    color: #737272;
+}
+/*------------my_plan_Part_end-----------------*/
+/*------------gradiant_Part_start-----------------*/
+.gradient{
+    margin: 10%;
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%),  url(./images/watch.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+.gradient_text{
+    padding: 10%;
+}
+.bonus_part{
+    text-align: center;
+    margin: 10%;
+    background: #005FAC;
+    /* background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%); */
+    color: white;
+    padding: 5%;
+}
+.bonuses{
+    padding-top: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.bonus{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img_width{
+    width: 25%;
+
+}
+.font_white_color{
+    color:white
+}
+/*------------gradiant_Part_end-----------------*/
+/*------------Footer_Part_start-----------------*/
+footer{
+    background-color: #151414;
+    display: flex;
+    padding: 10%;
+}
+.future{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+.margin_bottom{
+    margin-bottom: 5%;
+}
+.subscribe{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap:10%;
+    margin-left: 5%;
+}
+.icon{
+    display: flex;
+    gap: 2.5%;
+}
+.subscribe_button{
+    text-decoration: none;
+    background: #005FAC;
+    border-radius: 5px;
+    padding: 3% 4%;
+    color: white;
+    font-weight: 600;
+
+}
+
+/*------------Footer_Part_end-----------------*/
