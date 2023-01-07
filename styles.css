@@ -114,6 +114,8 @@ h4{
     color: white;
     padding: 5%;
 }
+/*------------gradiant_Part_end-----------------*/
+/*------------Bonus_Part_start-----------------*/
 .bonuses{
     padding-top: 10%;
     display: flex;
@@ -127,12 +129,12 @@ h4{
 }
 .img_width{
     width: 25%;
-
+    
 }
 .font_white_color{
     color:white
 }
-/*------------gradiant_Part_end-----------------*/
+/*------------Bonus_Part_start-----------------*/
 /*------------Footer_Part_start-----------------*/
 footer{
     background-color: #151414;
@@ -159,11 +161,17 @@ footer{
     display: flex;
     gap: 2.5%;
 }
+input{
+    padding: 5%;
+    border: 1px solid white;
+    border-radius: 5px;
+    background: #151414;
+}
 .subscribe_button{
     text-decoration: none;
     background: #005FAC;
     border-radius: 5px;
-    padding: 3% 4%;
+    padding: 5%;
     color: white;
     font-weight: 600;
 
